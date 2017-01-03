@@ -11,20 +11,13 @@ import requests
 import tweepy, time
 
 
-# Consumer Key (API Key)	CmxgCLjuqmRBAm6BveKNcarsR
-# 
-# Consumer Secret (API Secret)	KbEyNZflVZzB5HtbIBkAenUYnXQojKSUcGol94ii23Ymnoe8zx
-# 
-# Access Token	812974448768749568-m8Bh4SM81g60xRnqLlcLhzroKqa7atP
-# 
-# Access Token Secret	OCRmZK7iXYWKrSSIm42HWniMwXuVuZYPPstYbFxLNpxvr
 
 # In[3]:
 
-ACCESS_TOKEN = '812974448768749568-m8Bh4SM81g60xRnqLlcLhzroKqa7atP'
-ACCESS_SECRET = 'OCRmZK7iXYWKrSSIm42HWniMwXuVuZYPPstYbFxLNpxvr'
-CONSUMER_KEY = 'CmxgCLjuqmRBAm6BveKNcarsR'
-CONSUMER_SECRET = 'KbEyNZflVZzB5HtbIBkAenUYnXQojKSUcGol94ii23Ymnoe8zx'
+ACCESS_TOKEN = ''
+ACCESS_SECRET = ''
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
 oauth = OAuth(ACCESS_TOKEN, ACCESS_SECRET, CONSUMER_KEY, CONSUMER_SECRET)
 
 
